@@ -47,6 +47,7 @@
   position: relative;
   bottom: -2px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .container form input[type="checkbox"][type="checkbox"] + label {
@@ -60,6 +61,7 @@
   background-color: #007498;
   color: #fff;
   padding: 12px;
+  cursor: pointer;
 }
 
 .container form p {
