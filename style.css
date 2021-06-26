@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0084a8;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.container form {
+  width: 400px;
+  height: auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.container form h2 {
+  color: #565758;
+  text-align: center;
+  padding: 5px;
+  font-weight: 400;
+}
+
+.container form label {
+  display: block;
+  font-size: 18px;
+}
+
+.container form input {
+  width: 100%;
+  border: 1px solid #d3d0d0;
+  padding: 15px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.container form input[type="checkbox"] {
+  width: 20px;
+  position: relative;
+  bottom: -2px;
+  display: inline-block;
+}
+
+.container form input[type="checkbox"][type="checkbox"] + label {
+  display: inline-block;
+  font-size: 15px;
+  color: #565758;
+  padding-bottom: 10px;
+}
+
+.container form input[type="submit"] {
+  background-color: #007498;
+  color: #fff;
+  padding: 12px;
+}
+
+.container form p {
+  text-align: center;
+  color: #565758;
+  padding: 2px 0;
+}
+
+.container form p a {
+  text-decoration: none;
+  color: #007498;
+}
+/*# sourceMappingURL=style.css.map */
